@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "ru.soundchunkmarker.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SoundSystemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

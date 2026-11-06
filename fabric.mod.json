@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "soundchunkmarker",
+  "version": "${version}",
+  "name": "Sound Chunk Marker",
+  "description": "Marks chunks where selected Minecraft sounds are heard",
+  "authors": ["ChatGPT"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.soundchunkmarker.SoundChunkMarkerClient"]
+  },
+  "mixins": [
+    "soundchunkmarker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
